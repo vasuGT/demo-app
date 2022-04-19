@@ -1,0 +1,28 @@
+{
+  "name": "demo-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasuGT/demo-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasuGT/demo-app/issues"
+  },
+  "homepage": "https://github.com/vasuGT/demo-app#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "ejs": "^3.0.2",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
